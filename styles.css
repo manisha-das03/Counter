@@ -1,0 +1,275 @@
+body{
+    
+
+  background: url(dark-anime-holding-a-gun-hap3kxf8czba91pc.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.welcome_cont{
+    text-align: no-repeat center fixed;
+    margin-top: 350px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif,22px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.border{
+    border: double  #bebcd2;
+    border-width: 10px;
+    border-left: 100%;
+    margin-left:700px;
+    margin-right:700px;
+    box-shadow: 5px 5px 5px 5px #504f6e;
+}
+
+.Counter{
+    margin-top: 20px;
+    border-radius: 22px;
+    background-color: transparent; 
+    
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align:  top right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.Counter:hover{
+    background-color: orange;
+}
+.cont1{
+    font-family: Georgia, 'Times New Roman', Times, serif,22px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+    
+}
+.cont2{
+    font-style: initial;
+    font-size: x-large;
+    color:beige;
+}
+.cont3{
+    font-style: initial;
+    font-size: x-large;
+    color:beige;
+}
+textarea{
+    
+    border-radius: 20px;
+    font-size: 20px;
+    background-color:transparent;
+    
+  
+}
+
+textarea:hover{
+   
+    border: solid 5px orange ;
+  background-color: #bebcd2;
+}
+.ninja-star {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 0px solid #bebcd2;
+    position: relative;
+    animation: float 5s ease-in-out infinite;
+}
+
+.ninja-star::before,
+.ninja-star::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.ninja-star::before {
+    border-top: 100px solid #bebcd2;
+    top: -50px;
+}
+
+.ninja-star::after {
+    border-bottom: 100px solid #bebcd2;
+    bottom: -50px;
+}
+
+
+.ninja-star2 {
+    width: 0;
+    height: 0;
+    border-left: 550px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 0px solid #504f6e;
+    position:static;
+    
+    animation: float 4s ease-in-out infinite;
+    
+}
+
+.ninja-star2::before,
+.ninja-star2::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.ninja-star2::before {
+    border-top: 100px solid #504f6e;
+    top: -50px;
+}
+
+.ninja-star2::after {
+    border-bottom: 100px solid #504f6e;
+    bottom: -50px;
+}
+
+
+.ninja-star3 {
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 0px solid #8683a0;
+    position:static;
+    
+    animation: float 4.5s ease-in-out infinite;
+}
+
+.ninja-star3::before,
+.ninja-star3::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.ninja-star3::before {
+    border-top: 100px solid #8683a0;
+    top: -50px;
+}
+
+.ninja-star3::after {
+    border-bottom: 100px solid #8683a0;
+    bottom: -50px;
+}
+.ninja-star4 {
+    width: 0;
+    height: 0;
+    border-left: 1400px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 0px solid #bebcd2;
+    position:static;
+    
+    animation: float 5s ease-in-out infinite;
+}
+
+.ninja-star4::before,
+.ninja-star4::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.ninja-star4::before {
+    border-top: 100px solid #bebcd2;
+    top: -50px;
+}
+
+.ninja-star4::after {
+    border-bottom: 100px solid #bebcd2;
+    bottom: -50px;
+}
+.ninja-star5 {
+    width: 0;
+    height: 0;
+    border-left: 1900px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 0px solid #504f6e;
+    position:static;
+    
+    animation: float 4s ease-in-out infinite;
+    
+}
+
+.ninja-star5::before,
+.ninja-star5::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.ninja-star5::before {
+    border-top: 100px solid #504f6e;
+    top: -50px;
+}
+
+.ninja-star5::after {
+    border-bottom: 100px solid #504f6e;
+    bottom: -50px;
+}
+
+
+.ninja-star6 {
+    width: 0;
+    height: 0;
+    border-left: 1640px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 0px solid #8683a0;
+    position:static;
+    
+    animation: float 4.5s ease-in-out infinite;
+}
+
+.ninja-star6::before,
+.ninja-star6::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.ninja-star6::before {
+    border-top: 100px solid #8683a0;
+    top: -50px;
+}
+
+.ninja-star6::after {
+    border-bottom: 100px solid #8683a0;
+    bottom: -50px;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(80);
+        
+    }
+    50% {
+        transform: translateY(-400px);
+    }
+}
+.animated_ninja{
+    border: 1500px 500px 0px 0px;
+    padding: 20px;
+        
+}
+  
